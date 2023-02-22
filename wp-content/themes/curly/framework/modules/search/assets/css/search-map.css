@@ -1,0 +1,407 @@
+/* ==========================================================================
+   Search styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Search opener - begin
+========================================================================== */
+.mkdf-search-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 1;
+  margin: 0 10px;
+}
+
+.mkdf-search-opener .mkdf-search-opener-wrapper > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.mkdf-search-opener .mkdf-search-opener-wrapper > *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.mkdf-search-opener.mkdf-search-opener-svg-path .mkdf-search-opener-wrapper > * {
+  vertical-align: middle;
+}
+
+.mkdf-search-opener.mkdf-search-opener-svg-path .mkdf-search-opener-wrapper > *,
+.mkdf-search-opener.mkdf-search-opener-svg-path .mkdf-search-opener-wrapper path {
+  fill: currentColor;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-search-opener,
+.mkdf-light-header .mkdf-top-bar .mkdf-search-opener {
+  color: #ffffff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-search-opener:hover,
+.mkdf-light-header .mkdf-top-bar .mkdf-search-opener:hover {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-search-opener,
+.mkdf-dark-header .mkdf-top-bar .mkdf-search-opener {
+  color: #000000 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-search-opener:hover,
+.mkdf-dark-header .mkdf-top-bar .mkdf-search-opener:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* ==========================================================================
+# Search opener - end
+========================================================================== */
+/* ==========================================================================
+# Search template style - begin
+========================================================================== */
+.mkdf-search-page-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 80px;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 30px;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-search-title {
+  margin: 0 0 20px;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-search-label {
+  display: block;
+  font-size: 13px;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 10px;
+  clear: both;
+  border-bottom: 1px solid #afaaa9;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-column-left {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-column-right {
+  display: table-cell;
+  width: 1%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-field {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px 0 3px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-field::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-field:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-field::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-field:-ms-input-placeholder {
+  color: inherit;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-submit {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  font-size: 18px;
+  color: #000000;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.mkdf-search-page-holder .mkdf-search-page-form .mkdf-form-holder .mkdf-search-submit:hover {
+  color: #000000;
+}
+
+.mkdf-search-page-holder article {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 30px 0;
+  margin: 0;
+  border-bottom: 1px solid #afaaa9;
+}
+
+.mkdf-search-page-holder article.sticky .mkdf-post-title a {
+  color: #c59d5f;
+}
+
+.mkdf-search-page-holder article.page .mkdf-post-title-area .mkdf-post-info > div.mkdf-post-info-category {
+  display: none;
+}
+
+.mkdf-search-page-holder article .mkdf-post-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.mkdf-search-page-holder article .mkdf-post-image {
+  display: block;
+  float: left;
+  width: 130px;
+}
+
+.mkdf-search-page-holder article .mkdf-post-image a, .mkdf-search-page-holder article .mkdf-post-image img {
+  display: block;
+}
+
+.mkdf-search-page-holder article .mkdf-post-title-area {
+  min-height: 130px;
+  padding: 0 0 0 150px;
+}
+
+.mkdf-search-page-holder article .mkdf-post-title-area.mkdf-no-thumbnail {
+  padding: 0;
+  min-height: inherit;
+}
+
+.mkdf-search-page-holder article .mkdf-post-title-area .mkdf-post-title-area-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mkdf-search-page-holder article .mkdf-post-title-area .mkdf-post-title-area-inner .mkdf-post-title {
+  margin: 0;
+}
+
+.mkdf-search-page-holder article .mkdf-post-title-area .mkdf-post-title-area-inner .mkdf-post-excerpt {
+  margin: 7px 0 0;
+}
+
+.mkdf-search-page-holder .mkdf-blog-pagination {
+  margin: 50px 0 0;
+}
+
+/* ==========================================================================
+# Search template style - end
+========================================================================== */
+/* ==========================================================================
+# Search covers header - start
+========================================================================== */
+.mkdf-search-cover {
+  background-color: #000000;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 115;
+}
+
+.mkdf-search-cover .mkdf-container,
+.mkdf-search-cover .mkdf-container-inner {
+  height: 100%;
+}
+
+.mkdf-fixed-header-appear .mkdf-search-cover,
+.mkdf-sticky-header-appear .mkdf-search-cover,
+.mkdf-mobile-header.mobile-header-appear .mkdf-search-cover {
+  position: fixed;
+}
+
+.mkdf-fixed-header-appear.admin-bar .mkdf-search-cover,
+.mkdf-sticky-header-appear.admin-bar .mkdf-search-cover,
+.admin-bar .mkdf-mobile-header.mobile-header-appear .mkdf-search-cover {
+  top: 32px;
+}
+
+.mkdf-search-cover .mkdf-form-holder-outer {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.mkdf-search-cover .mkdf-form-holder {
+  display: table-cell;
+  padding: 0 40px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.mkdf-search-cover .mkdf-form-holder-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.mkdf-search-cover .mkdf-container-inner .mkdf-form-holder {
+  padding: 0;
+}
+
+.mkdf-search-cover .mkdf-container-inner .mkdf-search-close {
+  right: 0;
+}
+
+.mkdf-search-cover input {
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.5) !important;
+  display: inline-block;
+  float: left;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: inherit;
+  height: 40px;
+  line-height: 40px;
+  margin: 8px 0 0 0;
+  outline: none;
+  outline-offset: 0;
+  padding: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.mkdf-search-cover input:focus {
+  color: inherit;
+}
+
+.mkdf-search-cover input::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.mkdf-search-cover input:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.mkdf-search-cover input::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.mkdf-search-cover input:-ms-input-placeholder {
+  color: inherit;
+}
+
+.mkdf-search-cover input[type="submit"] {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+}
+
+.mkdf-search-cover .mkdf-search-close {
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  vertical-align: middle;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.mkdf-search-cover .mkdf-search-close:hover {
+  color: #c59d5f;
+}
+
+.mkdf-search-cover .mkdf-search-close.mkdf-search-close-icon-pack {
+  font-size: 20px;
+  line-height: 1em;
+}
+
+.mkdf-search-cover .mkdf-search-close.mkdf-search-close-icon-pack * {
+  display: block;
+  line-height: inherit;
+}
+
+.mkdf-search-cover .mkdf-search-close.mkdf-search-close-icon-pack *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.mkdf-search-cover .mkdf-search-close.mkdf-search-close-svg-path > * {
+  vertical-align: middle;
+}
+
+.mkdf-search-cover .mkdf-search-close.mkdf-search-close-svg-path > *,
+.mkdf-search-cover .mkdf-search-close.mkdf-search-close-svg-path path {
+  fill: currentColor;
+}
+
+.mkdf-search-cover.disabled input,
+.mkdf-search-cover.disabled input:focus {
+  font-weight: normal;
+}
+
+/* ==========================================================================
+# Search covers header - end
+========================================================================== */
+/* ==========================================================================
+   Search styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=search-map.css.map */

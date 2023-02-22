@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-has-bg-image {
+    background-image: none !important;
+    height: auto !important;
+  }
+  .mkdf-title-holder.mkdf-has-bg-image .mkdf-title-image {
+    display: block;
+  }
+  .mkdf-title-holder.mkdf-has-bg-image .mkdf-title-wrapper {
+    height: 100% !important;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .mkdf-title-holder.mkdf-title-va-header-bottom {
+    height: auto !important;
+  }
+  .mkdf-title-holder.mkdf-title-va-header-bottom .mkdf-title-wrapper {
+    padding-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-title-holder .mkdf-page-title {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+  }
+  .mkdf-title-holder .mkdf-page-title a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+  }
+  .mkdf-title-holder .mkdf-page-title a:hover {
+    color: #c59d5f;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-title-holder var {
+    display: none !important;
+  }
+  .mkdf-title-holder .mkdf-page-title {
+    color: #000000;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    line-height: 1.41em;
+    text-transform: uppercase;
+  }
+  .mkdf-title-holder .mkdf-page-title a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+  }
+  .mkdf-title-holder .mkdf-page-title a:hover {
+    color: #c59d5f;
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-centered-type .mkdf-page-subtitle {
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-standard-with-breadcrumbs-type .mkdf-title-info,
+  .mkdf-title-holder.mkdf-standard-with-breadcrumbs-type .mkdf-breadcrumbs-info {
+    display: block;
+    width: 100%;
+  }
+  .mkdf-title-holder.mkdf-standard-with-breadcrumbs-type .mkdf-breadcrumbs-info {
+    margin: 10px 0 0;
+    text-align: initial;
+    white-space: inherit;
+  }
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */

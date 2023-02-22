@@ -1,0 +1,15 @@
+/*
+Theme Name: Curly
+Theme URI: https://curly.qodeinteractive.com/
+Description: A Stylish Theme for Hairdressers and Hair Salons
+Author: Mikado Themes
+Author URI: https://qodeinteractive.com/
+Text Domain: curly
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready
+Version: 2.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#page-id-738 .mkdf-light-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu>ul>li>a{
+    color:black !important;
+}

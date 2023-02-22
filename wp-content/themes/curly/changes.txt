@@ -1,0 +1,132 @@
+2.5
+- Added WordPress 5.8 compatibility
+- Added WooCommerce 5.6 compatibility
+- Updated Revolution Slider plugin to 6.5.7
+- Updated WPBakery Page Builder to 6.7.0
+- Updated Curly Core to 2.1.2
+- Fixed creation of the Custom Sidebars in new Widgets layout
+- Fixed cart widgets in WP5.8
+- Improved import in PHP8
+- Removed Google Plus Social Share
+
+
+2.4.1
+- Updated Curly Core to 2.1.1
+- Updated Curly Business to 2.0.3
+- Updated Curly Instagram Feed to 2.1.2
+- Updated Curly Twitter Feed to 2.0.2
+- Updated Revolution Slider plugin to 6.5.3
+
+2.4
+- Added WordPress 5.7.2 compatibility
+- Added WooCommerce 5.3.0 compatibility
+- Updated Curly Core to 2.1
+- Updated Curly Business to 2.0.2
+- Updated Curly Instagram Feed to 2.1.1
+- Updated Curly Twitter Feed to 2.0.1
+- Updated Revolution Slider plugin to 6.4.11
+- Updated Booked plugin to 2.3.5
+- Fixed countdown calculation
+- Fixed revolution slider preview functionality
+- Fixed issue with Pricing Table Item button target
+- Fixed display of alt attribute on Title Area images
+- Improved PHP8 compatibility
+- Improved Countdown shortcode
+- Improved theme registration to block Shortcodes and CPT loading if the theme is not registered
+- Removed Google Plus Social Share functionality
+- Removed extra values for default Portfolio Single template
+
+2.3.1
+- Updated Curly Core to 2.0.3
+- Updated Revolution Slider plugin to 6.4.11
+
+2.3
+- Added compatibility with Qi Addons for Elementor plugin
+- Added WordPress 5.7.1 compatibility
+- Added WooCommerce 5.2.2 compatibility
+- Updated Curly Core to 2.0.2
+- Updated WPBakery Page Builder to 6.6.0
+- Updated Revolution Slider plugin to 6.4.8
+- Fixed issue with Contact Form 7 in Vertical Split Slider
+
+2.2.1
+- Fixed Instagram Feed for business accounts
+- Updated Curly Instagram Feed to 2.1
+- Updated WPBakery Visual Composer plugin to 6.4.1
+
+2.2
+- Updated Curly Instagram Feed to 2.0
+- Updated Revolution Slider to 6.2.23
+- Updated WPBakery page builder to 6.4.0
+
+2.1
+- Added WordPress 5.5 compatibility
+- Updated Curly Core to 2.0.1
+- Updated Curly Business to 2.0.1
+- Updated Revolution Slider to 6.2.22
+- Updated WPBakery page builder to 6.3.0
+
+2.0
+- Added Elementor compatibility
+- Added Booked plugin in recommended plugins
+- Updated Curly Core to 2.0
+- Updated Curly Business to 2.0
+- Updated Curly Twitter Feed to 2.0
+- Updated Revolution Slider to 6.2.15
+- Updated WPBakery page builder to 6.2.0
+- Added WooCommerce 4.2.2 compatibility
+
+1.4.1
+- Updated Curly Core to 1.3
+- Improved script loading
+
+1.4
+- Added WooCommerce 3.8.1 compatibility
+- Added Curly Dashboard
+- Updated WPBakery Page Builder to 6.0.5
+- Updated Revolution Slider to 6.1.5
+- Updated Curly Core to 1.2
+� Removed unused file instagram-redirect.php from Curly Instagram Feed plugin
+� Removed unused file twitter-redirect.php from Curly Twitter Feed plugin
+� Updated Curly Instagram Feed plugin to 1.1.1
+� Updated Curly Twitter Feed plugin to 1.1.1
+- Improved Import
+- Improved Welcome Page
+- Improved framework files
+- Changed Curly Options Position
+
+1.3
+- Added WooCommerce 3.6.5 compatibility
+- Updated WPBakery Page Builder to 6.0.3
+- Updated Revolution Slider to 6.0.3
+- Fixed WooCommerce variable product images appearance
+
+1.2.1
+- Added WooCommerce 3.6.1 compatibility
+- Updated Instagram Feed to 1.1
+- Updated Twitter Feed to 1.1
+- Updated Curly Core plugin to 1.1.1
+- Updated Curly Business plugin to 1.1
+- Improved import functionality
+- Improved theme security
+
+1.2
+- Added WooCommerce 3.5.5 compatibility
+- Updated Curly Core plugin to 1.1
+- Updated Visual Composer to 5.7
+- Updated Revolution Slider to 5.4.8.3
+- Updated pot file
+- Improved framework files
+
+1.1
+- Added WooCommerce 3.5.1 compatibility
+- Added compatibility with PHP 7.2
+- Added compatibility with Gutenberg plugin
+- Updated WPBakery Page Builder to 5.5.5
+- Updated Revolution Slider to 5.4.8
+- Fixed portfolio list pretty photo display
+- Improved working hours shortcode translation
+
+1.0.1
+- Added Product list button hover effect
+- Improved Banner button hover effect
