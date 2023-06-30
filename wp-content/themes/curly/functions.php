@@ -1,6 +1,7 @@
 <?php
 include_once get_template_directory() . '/theme-includes.php';
 
+
 if (!function_exists('curly_mkdf_styles')) {
     /**
      * Function that includes theme's core styles
@@ -841,7 +842,3 @@ if( ! function_exists( 'curly_mkdf__add_registration_admin_notice' ) ) {
 	}
 	add_action('admin_notices', 'curly_mkdf_add_registration_admin_notice');
 }
-
-ini_set( 'upload_max_size' , '64M' );
-ini_set( 'post_max_size', '64M');
-ini_set( 'max_execution_time', '300' );

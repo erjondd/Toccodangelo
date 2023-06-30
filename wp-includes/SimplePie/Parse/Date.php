@@ -67,7 +67,7 @@ class SimplePie_Parse_Date
 	var $day = array(
 		// English
 		'mon' => 1,
-		'monday' => 1,
+		'montag' => 1,
 		'tue' => 2,
 		'tuesday' => 2,
 		'wed' => 3,

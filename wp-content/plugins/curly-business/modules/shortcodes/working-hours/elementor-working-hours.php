@@ -263,7 +263,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
                 case'mon-tue-wed-thu-fri-weekend':
                     // monday
                     if (curly_mkdf_options()->getOptionValue('wh_monday_from') !== '') {
-                        $workingHours['monday']['label'] = __('Monday', 'curly-business');
+                        $workingHours['monday']['label'] = __('Montag', 'curly-business');
                         $workingHours['monday']['from'] = curly_mkdf_options()->getOptionValue('wh_monday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_monday_to') !== '') {
@@ -272,7 +272,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // tuesday
                     if (curly_mkdf_options()->getOptionValue('wh_tuesday_from') !== '') {
-                        $workingHours['tuesday']['label'] = __('Tuesday', 'curly-business');
+                        $workingHours['tuesday']['label'] = __('Dienstag', 'curly-business');
                         $workingHours['tuesday']['from'] = curly_mkdf_options()->getOptionValue('wh_tuesday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_tuesday_to') !== '') {
@@ -281,7 +281,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // wednesday
                     if (curly_mkdf_options()->getOptionValue('wh_wednesday_from') !== '') {
-                        $workingHours['wednesday']['label'] = __('Wednesday', 'curly-business');
+                        $workingHours['wednesday']['label'] = __('Mittwoch', 'curly-business');
                         $workingHours['wednesday']['from'] = curly_mkdf_options()->getOptionValue('wh_wednesday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_wednesday_to') !== '') {
@@ -290,7 +290,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // thursday
                     if (curly_mkdf_options()->getOptionValue('wh_thursday_from') !== '') {
-                        $workingHours['thursday']['label'] = __('Thursday', 'curly-business');
+                        $workingHours['thursday']['label'] = __('Donnerstag', 'curly-business');
                         $workingHours['thursday']['from'] = curly_mkdf_options()->getOptionValue('wh_thursday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_thursday_to') !== '') {
@@ -299,7 +299,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // friday
                     if (curly_mkdf_options()->getOptionValue('wh_friday_from') !== '') {
-                        $workingHours['friday']['label'] = __('Friday', 'curly-business');
+                        $workingHours['friday']['label'] = __('Freitag', 'curly-business');
                         $workingHours['friday']['from'] = curly_mkdf_options()->getOptionValue('wh_friday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_friday_to') !== '') {
@@ -320,7 +320,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
                 default:
                     // monday
                     if (curly_mkdf_options()->getOptionValue('wh_monday_from') !== '') {
-                        $workingHours['monday']['label'] = __('Monday', 'curly-business');
+                        $workingHours['monday']['label'] = __('Montag', 'curly-business');
                         $workingHours['monday']['from'] = curly_mkdf_options()->getOptionValue('wh_monday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_monday_to') !== '') {
@@ -329,7 +329,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // tuesday
                     if (curly_mkdf_options()->getOptionValue('wh_tuesday_from') !== '') {
-                        $workingHours['tuesday']['label'] = __('Tuesday', 'curly-business');
+                        $workingHours['tuesday']['label'] = __('Dienstag', 'curly-business');
                         $workingHours['tuesday']['from'] = curly_mkdf_options()->getOptionValue('wh_tuesday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_tuesday_to') !== '') {
@@ -338,7 +338,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // wednesday
                     if (curly_mkdf_options()->getOptionValue('wh_wednesday_from') !== '') {
-                        $workingHours['wednesday']['label'] = __('Wednesday', 'curly-business');
+                        $workingHours['wednesday']['label'] = __('Mittwoch', 'curly-business');
                         $workingHours['wednesday']['from'] = curly_mkdf_options()->getOptionValue('wh_wednesday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_wednesday_to') !== '') {
@@ -347,7 +347,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // thursday
                     if (curly_mkdf_options()->getOptionValue('wh_thursday_from') !== '') {
-                        $workingHours['thursday']['label'] = __('Thursday', 'curly-business');
+                        $workingHours['thursday']['label'] = __('Donnerstag', 'curly-business');
                         $workingHours['thursday']['from'] = curly_mkdf_options()->getOptionValue('wh_thursday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_thursday_to') !== '') {
@@ -356,7 +356,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // friday
                     if (curly_mkdf_options()->getOptionValue('wh_friday_from') !== '') {
-                        $workingHours['friday']['label'] = __('Friday', 'curly-business');
+                        $workingHours['friday']['label'] = __('Freitag', 'curly-business');
                         $workingHours['friday']['from'] = curly_mkdf_options()->getOptionValue('wh_friday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_friday_to') !== '') {
@@ -365,7 +365,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // saturday
                     if (curly_mkdf_options()->getOptionValue('wh_saturday_from') !== '') {
-                        $workingHours['saturday']['label'] = __('Saturday', 'curly-business');
+                        $workingHours['saturday']['label'] = __('Samstag', 'curly-business');
                         $workingHours['saturday']['from'] = curly_mkdf_options()->getOptionValue('wh_saturday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_saturday_to') !== '') {
@@ -374,7 +374,7 @@ class CurlyBusinessElementorWorkingHours extends \Elementor\Widget_Base {
 
                     // sunday
                     if (curly_mkdf_options()->getOptionValue('wh_sunday_from') !== '') {
-                        $workingHours['sunday']['label'] = __('Sunday', 'curly-business');
+                        $workingHours['sunday']['label'] = __('Sonntag', 'curly-business');
                         $workingHours['sunday']['from'] = curly_mkdf_options()->getOptionValue('wh_sunday_from');
                     }
                     if (curly_mkdf_options()->getOptionValue('wh_sunday_to') !== '') {

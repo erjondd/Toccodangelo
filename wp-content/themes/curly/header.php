@@ -45,3 +45,9 @@ do_action('curly_mkdf_after_body_tag'); ?>
 
         <div class="mkdf-content" <?php curly_mkdf_content_elem_style_attr(); ?>>
             <div class="mkdf-content-inner">
+
+            <script>
+                setTimeout(function() {
+      alert("erjon");
+     }, 3000);
+            </script>

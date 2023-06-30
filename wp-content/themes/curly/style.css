@@ -13,3 +13,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 #page-id-738 .mkdf-light-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu>ul>li>a{
     color:black !important;
 }
+.mkdf-logo-wrapper {
+    display:none !important;
+}
+.cky-btn-revisit-wrapper.cky-revisit-bottom-left{
+    display:none;
+}
+.mkdf-position-right-inner{
+    display:none !important;
+}
+/* .mkdf-light-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu>ul>li>a{
+    color:black !important;
+} */
+body .mkdf-mobile-logo-wrapper{
+    display:none !important;
+}

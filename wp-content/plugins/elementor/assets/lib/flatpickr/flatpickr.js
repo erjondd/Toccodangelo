@@ -109,7 +109,7 @@
 			shorthand: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
 			longhand: [
 				"Sunday",
-				"Monday",
+				"Montag",
 				"Tuesday",
 				"Wednesday",
 				"Thursday",
